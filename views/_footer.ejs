@@ -1,0 +1,11 @@
+<footer>
+    <div>
+        &copy Coding Ninjas. All rights reserved
+    </div>
+    <ul type="none">
+        <li><a href="/">Home</a></li>
+        <% if(locals.user) {%>
+            <li><a href="/user/profile/<%= user.id %>">profile</a></li>
+            <%}%>
+    </ul>
+</footer>

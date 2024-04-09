@@ -1,0 +1,30 @@
+/* @import url("layout.css"); */
+
+body {
+    background-color: lightblue;
+}
+
+#post-list-cointainer {
+    height: auto;
+
+}
+
+#home-cointainer {
+    background-color: aquamarine;
+    display: flex;
+}
+
+#feed-post {
+    width: 70%;
+    padding: 10px;
+}
+
+#user-friend {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+#post-list-cointainer span {
+    margin-right: 1rem;
+}

@@ -1,0 +1,30 @@
+header {
+    background-color: #217cbe;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 5rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header h4 {
+    font-size: 2rem;
+}
+
+header li {
+    margin-left: 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}

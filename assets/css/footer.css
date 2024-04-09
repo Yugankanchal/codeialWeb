@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    font-size: 1.5rem;
+    background-color: grey;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
